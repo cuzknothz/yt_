@@ -1,0 +1,14 @@
+{
+    "recommendations": [
+        "aaron-bond.better-comments",
+        "alefragnani.bookmarks",
+        "coenraads.bracket-pair-colorizer",
+        "dsznajder.es7-react-js-snippets",
+        "dbaeumer.vscode-eslint",
+        "xabikos.javascriptsnippets",
+        "pkief.material-icon-theme",
+        "monokai.theme-monokai-pro-vscode",
+        "csstools.postcss",
+        "bradlc.vscode-tailwindcss"
+    ]
+}
