@@ -1,8 +1,13 @@
+import { Header } from "@/components/Header";
 import { NextPage } from "next";
 import React from "react";
 
 const HomePage: NextPage = () => {
-  return <div></div>;
+  return (
+    <>
+      <Header />
+    </>
+  );
 };
 
 export default HomePage;
