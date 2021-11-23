@@ -12,7 +12,7 @@ import InfiniteScroll from "react-infinite-scroll-component";
 import SkeletonVideo from "@/components/Skeletons/SkeletonVideo";
 import { useAppDispatch, useAppSelector } from "@/store";
 
-export const HomeScreen = () => {
+const HomeScreen = () => {
   const dispatch = useAppDispatch();
   useEffect(() => {
     dispatch(getPopularVideos());
@@ -59,3 +59,4 @@ export const HomeScreen = () => {
     </Container>
   );
 };
+export default HomeScreen;
